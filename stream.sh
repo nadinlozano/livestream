@@ -11,4 +11,4 @@ arecord -D plughw:1,0 | ffmpeg  -i pipe:0 \       # audio format goes in
         -preset ultrafast \   # Use the fastest encoding preset#
         -f flv \              # Flash video goes out
 #       -an \                 # No audio!
-        'rtmp://<RASPBERRY_IP>/live/<STREAM_NAME>'
+        'rtmp://<RASPBERRY_IP>/audio/<STREAM_NAME>'
