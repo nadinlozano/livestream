@@ -11,4 +11,4 @@ arecord -D plughw:1,0 | ffmpeg  -i pipe:0 \       # audio format goes in
         -preset ultrafast \   # Use the fastest encoding preset#
         -f flv \              # Flash video goes out
 #       -an \                 # No audio!
-        'rtmp://127.0.0.1/audio/radio'
+        'rtmp://192.168.0.12/audio/radio'
